@@ -37,47 +37,61 @@
     
     <!-- Business Schema JSON-LD -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FashionStore",
-      "name": "Dandy Designs Fashion House",
-      "image": "https://dandydesigns.vercel.app/logo.png",
-      "description": "Premium fashion house in Lagos, Nigeria specializing in custom corporate wear, evening gowns, and elegant separates.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Lagos",
-        "addressCountry": "Nigeria"
-      },
-      "telephone": "+234-701-246-3004",
-      "alternateName": "Dandy Designs",
-      "slogan": "Designed with passion, dressed with dignity",
-      "priceRange": "$$",
-      "paymentAccepted": "Cash, Bank Transfer",
-      "currenciesAccepted": "NGN",
-      "areaServed": "Lagos, Nigeria",
-      "serviceType": "Custom Fashion Design",
-      "makesOffer": [
         {
-          "@type": "Service",
-          "name": "Corporate Wear Design",
-          "description": "Custom professional attire for business settings"
-        },
-        {
-          "@type": "Service", 
-          "name": "Evening Gown Design",
-          "description": "Luxury evening wear for special occasions"
-        },
-        {
-          "@type": "Service",
-          "name": "Separates Design", 
-          "description": "Custom skirts, blouses and versatile wardrobe pieces"
+            "@context": "https://schema.org",
+            "@type": [
+                "LocalBusiness",
+                "Clothing",
+                "ClothingStore"
+            ],
+            "name": "Dandy Designs Fashion House",
+            "image": "https://dandydesigns.vercel.app/logo.png",
+            "logo": "https://dandydesigns.vercel.app/logo.png",
+            "description": "Premium fashion house in Lagos, Nigeria specializing in custom corporate wear, evening gowns, and elegant separates.",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Lagos",
+                "addressCountry": "Nigeria"
+            },
+            "telephone": "+234-701-246-3004",
+            "alternateName": "Dandy Designs",
+            "slogan": "Designed with passion, dressed with dignity",
+            "priceRange": "$$",
+            "paymentAccepted": "Cash, Bank Transfer",
+            "currenciesAccepted": "NGN",
+            "areaServed": "Lagos, Nigeria",
+            "serviceType": "Custom Fashion Design",
+            "openingHours": [
+                "Mo,Tu,We,Th 09:00-18:00",
+                "Sa, 10:00-16:00"
+            ],
+            "isAccessibleForFree": true,
+            "url": "https://dandydesigns.vercel.app",
+            "makesOffer": [
+                {
+                    "@type": "Service",
+                    "name": "Corporate Wear Design",
+                    "description": "Custom professional attire for business settings",
+                    "image": "https://dandydesigns.vercel.app/seo/suit.jpeg"
+                },
+                {
+                    "@type": "Service",
+                    "name": "Evening Gown Design",
+                    "description": "Luxury evening wear for special occasions",
+                    "image": "https://dandydesigns.vercel.app/seo/gown.jpeg"
+                },
+                {
+                    "@type": "Service",
+                    "name": "Separates Design",
+                    "description": "Custom skirts, blouses and versatile wardrobe pieces",
+                    "image": "https://dandydesigns.vercel.app/seo/custom.jpeg"
+                }
+            ],
+            "sameAs": [
+                "https://instagram.com/dandy_designs_fashion_house",
+                "https://tiktok.com/@dandydesignsfashionhous1"
+            ]
         }
-      ],
-      "sameAs": [
-        "https://instagram.com/dandy_designs_fashion_house",
-        "https://tiktok.com/@dandydesignsfashionhous1"
-      ]
-    }
     </script>
   </head>
 
