@@ -39,12 +39,10 @@
     <meta name="geo.region" content="NG-LA"/>
     <meta name="geo.placename" content="Lagos, Nigeria"/>
 
-    <!-- Business Schema JSON-LD -->
-    <!-- Dandy Designs Fashion House JSON-LD -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@type": "ProfessionalService",
+            "@type": "LocalBusiness",
             "additionalType": "https://schema.org/ClothingDesign",
             "name": "Dandy Designs Fashion House",
             "alternateName": "Dandy Designs",
@@ -55,10 +53,7 @@
             "slogan": "Designed with passion, dressed with dignity",
             "telephone": "+2347012463004",
             "priceRange": "$$",
-            "paymentAccepted": [
-                "Cash",
-                "Bank Transfer"
-            ],
+            "paymentAccepted": ["Cash", "Bank Transfer"],
             "currenciesAccepted": "NGN",
             "address": {
                 "@type": "PostalAddress",
@@ -75,13 +70,7 @@
             "openingHoursSpecification": [
                 {
                     "@type": "OpeningHoursSpecification",
-                    "dayOfWeek": [
-                        "Monday",
-                        "Tuesday",
-                        "Wednesday",
-                        "Thursday",
-                        "Friday"
-                    ],
+                    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
                     "opens": "09:00",
                     "closes": "18:00"
                 },
@@ -93,14 +82,20 @@
                 }
             ],
             "isAccessibleForFree": true,
-            "makesOffer": [
+            "offers": [
                 {
                     "@type": "Offer",
                     "itemOffered": {
                         "@type": "Product",
                         "name": "Corporate Wear Design",
                         "description": "Custom professional attire for business settings",
-                        "image": "https://dandydesigns.vercel.app/seo/suit.jpeg"
+                        "image": "https://dandydesigns.vercel.app/seo/suit.jpeg",
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "5",
+                            "reviewCount": "10",
+                            "bestRating": "5"
+                        }
                     }
                 },
                 {
@@ -109,7 +104,13 @@
                         "@type": "Product",
                         "name": "Evening Gown Design",
                         "description": "Luxury evening wear for special occasions",
-                        "image": "https://dandydesigns.vercel.app/seo/gown.jpeg"
+                        "image": "https://dandydesigns.vercel.app/seo/gown.jpeg",
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "5",
+                            "reviewCount": "8",
+                            "bestRating": "5"
+                        }
                     }
                 },
                 {
@@ -118,7 +119,13 @@
                         "@type": "Product",
                         "name": "Separates Design",
                         "description": "Custom skirts, blouses and versatile wardrobe pieces",
-                        "image": "https://dandydesigns.vercel.app/seo/custom.jpeg"
+                        "image": "https://dandydesigns.vercel.app/seo/custom.jpeg",
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.8",
+                            "reviewCount": "12",
+                            "bestRating": "5"
+                        }
                     }
                 }
             ],
@@ -141,6 +148,7 @@
             ]
         }
     </script>
+
 </head>
 
 <body>
