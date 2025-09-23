@@ -17,7 +17,7 @@ const Contact = () => {
 		{
 			icon: Instagram,
 			title: "Follow Us",
-			info: [ "@dandy_designs_fashion_house", "@dandydesignsfashionhous1" ],
+			info: [ "@dandy_designs_fashion_house", "@dandydesignsfashionhouse" ],
 			action: INSTAGRAM
 		},
 		{

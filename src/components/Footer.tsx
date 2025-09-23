@@ -104,7 +104,7 @@ const Footer = () => {
 										rel="noopener noreferrer"
 										className="block text-background/80 hover:text-primary transition-colors text-sm"
 									>
-										@dandydesignsfashionhous1 (TikTok)
+										@dandydesignsfashionhouse (TikTok)
 									</a>
 								</div>
 							</div>
