@@ -31,7 +31,7 @@ const Services = () => {
   ]
 
   return (
-    <section id="services" className="py-24 bg-background">
+    <section id="services" className="py-24 bg-gradient-hero">
       <div className="container mx-auto px-4">
         
         {/* Section Header */}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -197,3 +199,26 @@ All colors MUST be HSL. Gold-based palette with elegant contrasts.
   0% { transform: translateY(-100%); }
   100% { transform: translateY(100%); }
 }
+
+.cursive {
+    font-family: "Playwrite AR", cursive !important;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 100;
+}
+
+
+.nunito {
+    font-family: "Nunito", cursive !important;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 100;
+}
+
+body {
+    font-family: "Nunito", cursive !important;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 100;
+}
+
