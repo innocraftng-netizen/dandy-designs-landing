@@ -3,9 +3,6 @@ import { Button } from "@/components/ui/button"
 import { Menu, Phone, Sparkles, X } from "lucide-react"
 import logo from "@/assets/logo.png"
 import { PHONE } from "@/utils/constants.ts";
-// import { PHONE } from '../utils/constants.ts'
-
-// const PHONE = '';
 
 const Navigation = () => {
 	const [ isOpen, setIsOpen ] = useState(false)
@@ -34,7 +31,7 @@ const Navigation = () => {
 					
 					{/* Logo */ }
 					<div className="flex items-center space-x-3 cursor-pointer" onClick={ () => scrollToSection('hero') }>
-						<img src={ logo } alt="Dandy Designs" className="w-10 h-10 invert sepia-0"/>
+						<img src={ logo } alt="Dandy Designs" className="w-16 h-16"/>
 						<div className="hidden sm:block">
 							<span className="text-sm text-primary cursive">DANDY DESIGNS</span>
 						</div>
